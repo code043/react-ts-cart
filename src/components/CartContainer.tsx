@@ -17,7 +17,7 @@ const CartContainer: React.FC = () => {
   }
 
   return (
-    <section className="cart">
+    <section className="bg-blue-200 text-blue-950">
       <header>
         <h2>your bag</h2>
       </header>
