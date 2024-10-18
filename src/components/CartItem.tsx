@@ -19,7 +19,7 @@ const CartItem: React.FC<CartItemProps> = ({
   const { remove, toggleAmount } = useGlobalContext();
 
   return (
-    <article className="cart-item">
+    <article className="border border-green-300 bg-blue-100">
       <img src={img} alt={title} />
       <div>
         <h4>{title}</h4>
