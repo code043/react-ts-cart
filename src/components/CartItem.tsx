@@ -23,7 +23,7 @@ const CartItem: React.FC<CartItemProps> = ({
       <img src={img} alt={title} />
       <div>
         <h4>{title}</h4>
-        <h4 className="item-price">${price}</h4>
+        <h4 className="text-green-950">${price}</h4>
         <button className="remove-btn" onClick={() => remove(id)}>
           remove
         </button>
